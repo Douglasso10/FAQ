@@ -12,7 +12,8 @@ html{
 .conteiner{
     display: flex;
     background-image:url('images/bg-pattern-desktop.svg');
-    width: 70%;
+    background-repeat:no-repeat;
+    width: 60%;
     background-color: white;
     margin: auto;
     margin-top: 100px;
@@ -23,13 +24,17 @@ html{
 
 .img{
     clip-path:inset(0 0 0 60px);
-    height: 250px;
+    height: 290px;
+    width: 50%;
+    position: relative;
+    top: 40px;
+    right: 60px;
 }
 
 .menu{
     display: flex;
     flex-direction: column;
-    padding: 50px 0 0 60px ;
+    margin: 50px 0 0 15%;
 }
 
 .titulo{
