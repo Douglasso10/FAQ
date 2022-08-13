@@ -23,18 +23,26 @@ html{
 }
 
 .img{
-    clip-path:inset(0 0 0 60px);
+    clip-path:inset(0 0 0 75px);
     height: 290px;
     width: 50%;
     position: relative;
     top: 40px;
-    right: 60px;
+    right: 75px;
+}
+
+.box{
+    position: absolute;
+    left: 185px;
+    bottom: 250px;
+    width: 13%;
+    
 }
 
 .menu{
     display: flex;
     flex-direction: column;
-    margin: 50px 0 0 15%;
+    margin: 50px 0 0 5%;
 }
 
 .titulo{
@@ -49,4 +57,22 @@ html{
     padding-bottom: 5px;
     color: rgb(74, 75, 94);
     font-size: 14px;
+}
+
+.question{
+    display: flex;
+    
+}
+
+.btn{
+    margin-top: 25px;
+    height: 20px;
+    border: 0;
+    background-color: white;
+    float: right;
+}
+
+.arrow{
+    float: right;
+    padding-left: 30px;
 }
