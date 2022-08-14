@@ -1,10 +1,14 @@
-function respostaFaq () {
-    const adicionar = document.getElementById("resposta");
-    const botao = document.getElementById("btn");
+const pergunta = document.querySelectorAll(".question");
+const resposta = document.querySelectorAll(".resposta");
 
-    if(adicionar.style.display === "none"){
-        adicionar.style.display = "inline";
-    }else{
-        adicionar.style.display = "none"
-    }
+for (let i=0; i < pergunta.length; i++ ){
+    pergunta[i].addEventListener('click', () => {
+        if(pergunta[i].classList.contains('fechar')){
+            pergunta[i].classList.toggle('fechar')
+            resposta[i].classList.toggle('ativar')
+        }else{
+            pergunta[i].classList.add('fechar')
+            resposta[i].classList.add('ativar')
+        }
+    })
 }

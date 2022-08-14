@@ -52,29 +52,32 @@ html{
 }
 
 .txt{
-    padding-top: 30px;
     border-bottom: 1px solid rgba(120, 120, 135, 0.26);
     padding-bottom: 5px;
     color: rgb(74, 75, 94);
     font-size: 14px;
 }
 
-#resposta{
-    display: none;
-}
-
 .question{
     display: flex;
-    
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-.btn{
-    margin-top: 25px;
-    height: 20px;
-    float: right;
+.resposta{
+    color: rgb(74, 75, 94);
+    font-size: 14px;
+    padding: 5px 0 0px 0;
+    max-height: 0px;
+    overflow: hidden;
 }
 
-.arrow{
-    float: right;
-    padding-left: 30px;
+.ativar {
+    max-height: 300px;
+}
+
+.fechar i{
+    transform: rotate(180deg);
 }
