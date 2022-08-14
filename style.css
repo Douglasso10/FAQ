@@ -59,6 +59,10 @@ html{
     font-size: 14px;
 }
 
+#resposta{
+    display: none;
+}
+
 .question{
     display: flex;
     
@@ -67,8 +71,6 @@ html{
 .btn{
     margin-top: 25px;
     height: 20px;
-    border: 0;
-    background-color: white;
     float: right;
 }
 
