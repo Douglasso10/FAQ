@@ -81,3 +81,35 @@ html{
 .fechar i{
     transform: rotate(180deg);
 }
+
+@media screen and (min-width:510px) and (max-width:600px){
+    .conteiner{
+        display: block;
+    }
+
+    .img{
+        clip-path:inset(0 0 0 0px);
+        width: 40%;
+        height: auto;
+        position: absolute;
+        top: 60px;
+        right: 150px;
+    }
+
+    .box{
+        position: absolute;
+        top: 130px;
+        left: 160px;
+    }
+
+    .menu{
+        padding: 100px 10px 0 10px;
+        margin-top: 150px;
+    }
+
+    .titulo{
+        text-align: center;
+    }
+
+}
+
